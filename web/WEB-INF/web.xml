@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>captureEmpServlet</servlet-name>
+        <servlet-class>za.ac.tut.web.captureEmpServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>viewAllEmpServlet</servlet-name>
+        <servlet-class>za.ac.tut.web.viewAllEmpServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>viewFemaleEmpServlet</servlet-name>
+        <servlet-class>za.ac.tut.web.viewFemaleEmpServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>viewMaleEmpServlet</servlet-name>
+        <servlet-class>za.ac.tut.web.viewMaleEmpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>captureEmpServlet</servlet-name>
+        <url-pattern>/captureEmpServlet.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>viewAllEmpServlet</servlet-name>
+        <url-pattern>/viewAllEmpServlet.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>viewFemaleEmpServlet</servlet-name>
+        <url-pattern>/viewFemaleEmpServlet.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>viewMaleEmpServlet</servlet-name>
+        <url-pattern>/viewMaleEmpServlet.do</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

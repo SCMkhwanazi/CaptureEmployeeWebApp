@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 Aug 2025, 5:11:37 PM
+    Author     : sands
+*/
+html, body{
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-image: url('assets/image/pexels-readymade-3847486.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: sans-serif;
+    color: black;
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
+}
+.container{
+     text-align: center;
+     
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
