@@ -1,4 +1,4 @@
-Web app captures employee date to glassfish database.
+Web app captures employee data to glassfish database.
 Use netbeans to create database and deploy project.
 Heres how it looks like blow.
 <img width="1366" height="768" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/ca31fe16-811d-4575-9da0-00f967798160" />
